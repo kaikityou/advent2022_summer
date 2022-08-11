@@ -1,0 +1,51 @@
+@charset "utf-8";
+/* CSS Document */
+
+.button
+{
+  border-radius: 10px / 10px;
+  color:#91918F;
+  background: linear-gradient(to bottom, #E0E0E0 0%, #E0E0E0 50%, #D3D3D3 50%, #D3D3D3 100%);
+}
+
+.button:hover 
+{
+  color:white;
+  background: linear-gradient(to bottom, #EF7266 0%, #EF7266 50%, #E54451 50%, #E54451 100%);
+  cursor: pointer;
+}
+
+.modal
+{
+  color:black;
+  /*display:none;*/
+  position:fixed;
+  overflow:auto;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0,0,0,0.5);
+}
+
+.Dialog-content {
+  background-color: #f4f4f4;
+  margin: 20% auto;
+  width: 20%;
+  box-shadow: 0 5px 8px 0 rgba(0,0,0,0.2),0 7px 20px 0 rgba(0,0,0,0.17);
+}
+
+.Dialog-header {
+  background: #f4f4f4;
+  padding: 3px 15px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.Dialog-body {
+  padding: 10px 20px;
+  width: 200%;
+  box-sizing: border-box;
+  color: grey;
+}

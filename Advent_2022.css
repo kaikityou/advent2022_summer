@@ -1,0 +1,121 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* 上の部分 */
+#heading{
+	color:white;
+	background-color:#FA226C;
+}
+
+#heading_states
+{
+	font-size:13px;
+}
+
+/* カレンダー部分 */
+/* CSSの方からテーブル作れるらしい */
+#calendar_on
+{
+	color:black;
+}
+
+#calendar
+{
+	text-align:center;
+	width:100%;
+	position:center;
+}
+
+table
+{
+	outline:2px solid #ddd;
+	border-collapse:collapse;
+	border-color:red;
+	width:100%;
+	position:center;
+}
+
+table,td,th
+{
+	border: 1px #E5E5E5 solid;
+}
+
+/* 曜日部分の装飾 */
+.dayOfWeek
+{
+	background-color: #AAAAAA;
+	color:#f9ffff;
+}
+.first_day
+{
+	background-color: #E7998E;
+	color:#f9ffff;
+}
+.end_day
+{
+	background-color: #87A3D0;
+	color:#f9ffff;
+}
+
+/* 日付部分の装飾 */
+td
+{
+	background-color:white;
+	color:#AAAAAA;
+	width: 14.28571428571429%;
+	height:120px;
+	position:center;
+}
+
+
+.writer /*　登録済みの日付の場所は少し濃く表示出来たらいいなぁと思ってる */
+{
+	font-size:large;
+}
+
+
+/* 登録者リストの表示 */
+.item
+{
+	font-family:Hiragino Kaku Gothic Pro,Meiryo,MS PGothic,Verdana,Arial,sans-serif;
+	border-top:2px solid #ddd;
+	color:#666;
+	list-style:none;
+	margin:10px 0 0;
+}
+
+.head
+{
+	padding:5px;
+	vertical-align:top;
+}
+
+.date
+{
+	float:left;
+	font-weight:700;
+	font-size:18px;
+	vertical-align:middle;
+}
+
+.name
+{
+	font-size:15px;
+}
+
+.title
+{
+	border-left:10px solid #ddd;
+	margin-top:10px;
+	font-size:18px;
+}
+
+/* */
+
+/*
+td.today
+{
+	background-color:beige;
+	color:#fff;
+}
+*/
